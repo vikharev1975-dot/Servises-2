@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08669abe-2298-4fb2-a482-532a27d04ebf">
+  <producedTypes>
+    <objectType typeId="1a01fe74-854f-4548-810b-2fffd4095757" valueTypeId="4e2147e4-a075-4369-affe-03929d66d7dd"/>
+    <refType typeId="10d9cc81-9d5f-4beb-9397-989fd8b5d457" valueTypeId="056f6e1b-41d6-4bc6-b8e6-52f283993186"/>
+    <selectionType typeId="34c9389b-3644-413d-abf4-9ba1720191e4" valueTypeId="b29045d4-70f8-4874-9a47-88e1bd3eb1bc"/>
+    <listType typeId="73dac8e0-822d-4561-8937-25711c94ee66" valueTypeId="e26f7ec7-76d1-4860-b4c0-484ce1e7bcc4"/>
+    <managerType typeId="7fefc1cb-c34f-47ac-ae55-dffd85d493ed" valueTypeId="40c16763-25a2-4049-88bf-767dd233da8c"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a208081d-bc5d-43f7-b16e-e46355a76667">
+      <name>Основной</name>
+      <description>Основной</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="110c6d5b-a9ee-40a5-a7bb-1e6199340919">
+      <name>Розничный</name>
+      <description>Розничный</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+</mdclass:Catalog>
